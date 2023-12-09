@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<!-- To my knowledge this entire bit is not possible w/o JS, of which I am not trying to delve into to link a spreadsheet to. 
+This is just a funny project my roommates and I came up with to rank our DoorDash orders. -->
+
+<body>
+<header>
+  <h1> The Penultimate Chiptole Bowl Collection </h1>
+</header>
+
+<nav>
+<div>
+  <div class="nav-item">
+    <a class="big-txt" href="index.html"> Home page </a>
+  </div>
+  <div class="nav-item">
+    <a class="big-txt" href="bowls.html"> Bowls </a>
+  </div>
+</div>
+</nav>
+
+<main class="main-container">
+    <div>
+        <label> Please check the boxes which correspond to your regular chiptole bowl order! (This table does not include promotional/seasonal items.) </label>
+      </div>
+        <form action="/action_page.php">
+            <label for="name"> Name: </label> <br>
+            <input type="text" id="name" name="name" required> <br><br>
+            <label for="bio"> Give your bowl a short description! </label> <br>
+            <textarea id="bio" name="bio" rows="4" required> </textarea>
+            <br><br>
+
+            <input type="checkbox" id="rice1" name="rice1" value="wrice">
+            <label for="vehicle1"> White rice</label><br>
+            <input type="checkbox" id="rice2" name="rice2" value="brice">
+            <label for="vehicle2"> Brown rice</label><br><br>
+
+            <input type="checkbox" id="bean1" name="bean1" value="bbeans">
+            <label for="vehicle1"> Black beans</label><br>
+            <input type="checkbox" id="bean2" name="bean2" value="pbeans">
+            <label for="vehicle2"> Pinto beans</label><br><br>
+
+            <input type="checkbox" id="meat1" name="meat1" value="Chx">
+            <label for="vehicle1"> Chicken</label><br>
+            <input type="checkbox" id="meat2" name="meat2" value="Stk">
+            <label for="vehicle2"> Steak</label><br>
+            <input type="checkbox" id="meat3" name="meat3" value="Bbq">
+            <label for="vehicle3"> Barbacoa</label><br>
+            <input type="checkbox" id="meat4" name="meat4" value="Car">
+            <label for="vehicle1"> Carnitas</label><br>
+            <input type="checkbox" id="meat5" name="meat5" value="Sof">
+            <label for="vehicle2"> Sofritas</label><br>
+            <input type="checkbox" id="meat6" name="meat6" value="Veg">
+            <label for="vehicle3"> Vegetables (no meat) </label><br><br>
+            
+            <input type="checkbox" id="top1" name="top1" value="topveg">
+            <label for="vehicle3"> Fajita veggies</label><br>
+            <input type="checkbox" id="top2" name="top2" value="cheese">
+            <label for="vehicle1"> Shredded cheese</label><br>      
+            <input type="checkbox" id="top3" name="top3" value="cream">
+            <label for="vehicle3"> Sour Cream</label><br>
+            <input type="checkbox" id="top4" name="top4" value="guac">
+            <label for="vehicle2"> Guacamole</label><br>      
+            <input type="checkbox" id="top5" name="top5" value="queso">
+            <label for="vehicle3"> Queso</label><br>
+            <input type="checkbox" id="top6" name="top6" value="pico">
+            <label for="vehicle3"> Fresh salsa </label><br>
+            <input type="checkbox" id="top7" name="top7" value="corn">
+            <label for="vehicle1"> Roasted corn salsa</label><br>
+            <input type="checkbox" id="top8" name="top8" value="verde">
+            <label for="vehicle2"> Tomatillo salsa (green) </label><br>            
+            <input type="checkbox" id="top9" name="top9" value="roja">
+            <label for="vehicle3"> Tomatillo salsa (red) </label><br><br>
+
+            <label for="bio"> Explain any specific asks here (double/half proteins, etc.) </label> <br>
+            <textarea id="bio" name="bio" rows="4" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+      <div>
+
+    </div>
+</main>
+    
+</body>
+</html>
